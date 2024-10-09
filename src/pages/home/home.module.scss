@@ -30,3 +30,17 @@
 .list {
     display: flex;
 }
+
+.banner_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news {
+    padding-bottom: 80px;
+}
+
+.news_card_block {
+    display: flex;
+    justify-content: space-between;
+}

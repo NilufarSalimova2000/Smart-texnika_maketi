@@ -6,12 +6,12 @@ import { Footer } from "./footer";
 
 export const MainLayout = () => {
     return (
-        <div>
-            <div>
-                <Header />
+        <div className={style.container_layout}>
+            <Header />
+            <div className={style.content}>
                 <Outlet />
             </div>
             <Footer />
         </div>
-    )
-}
+    );
+};

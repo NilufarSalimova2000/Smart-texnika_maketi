@@ -5,6 +5,8 @@ import { ProductCard } from "../../components/product-card";
 import { data, menu } from "../../data/data";
 import { Link } from "react-router-dom";
 import { MenuList } from "../../components/menu-list";
+import { Banner } from "../../components/banner";
+import { NewsCard } from "../../components/news-card";
 
 export const Home = () => {
     return (
@@ -42,6 +44,64 @@ export const Home = () => {
                             return  <Link to={`/product/${item.id}`}>
                             <ProductCard key={item.id} img={item.img} title={item.title} info={item.info} prise={item.prise} /></Link>
                         })}
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="container">
+                    <div className={style.banner_wrapper}>
+                        <Banner />
+                        <Banner />
+                    </div>
+                </div>
+            </section>
+            <section className={style.products}>
+                <div className="container">
+                    <h2 className={style.title}>Сигвеи</h2>
+                    <div className={style.list}>
+                        {data?.map((item) => {
+                            return  <Link to={`/product/${item.id}`}>
+                            <ProductCard key={item.id} img={item.img} title={item.title} info={item.info} prise={item.prise} /></Link>
+                        })}
+                    </div>
+                </div>
+            </section>
+            <section className={style.products}>
+                <div className="container">
+                    <h2 className={style.title}>Моноколеса</h2>
+                    <div className={style.list}>
+                        {data?.map((item) => {
+                            return  <Link to={`/product/${item.id}`}>
+                            <ProductCard key={item.id} img={item.img} title={item.title} info={item.info} prise={item.prise} /></Link>
+                        })}
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="container">
+                    <div className={style.banner_wrapper}>
+                        <Banner />
+                        <Banner />
+                    </div>
+                </div>
+            </section>
+            <section className={style.products}>
+                <div className="container">
+                    <h2 className={style.title}>Электровелосипеды</h2>
+                    <div className={style.list}>
+                        {data?.map((item) => {
+                            return  <Link to={`/product/${item.id}`}>
+                            <ProductCard key={item.id} img={item.img} title={item.title} info={item.info} prise={item.prise} /></Link>
+                        })}
+                    </div>
+                </div>
+            </section>
+            <section className={style.news}>
+                <div className="container">
+                    <h2 className={style.title}>Новости</h2>
+                    <div className={style.news_card_block}>
+                        <NewsCard />
+                        <NewsCard />
                     </div>
                 </div>
             </section>

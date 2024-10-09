@@ -1,0 +1,121 @@
+.info {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    color: var(--text---main);
+    max-width: 650px;
+    margin-bottom: 30px;
+}
+
+.info_block {
+    max-width: 750px;
+}
+
+.block {
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    width: 750px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.inner_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 11px;
+}
+
+.sale_price {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    text-decoration: line-through;
+    color: var(--text---grey);
+}
+
+.block2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    color: var(--text---main);
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #fff;
+    border: 1px solid var(--blue);
+    border-radius: 4px;
+    background-color: var(--blue);
+    padding: 14px 0;
+    width: 228px;
+    text-align: center;
+}
+
+.btn2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 14px 0;
+    width: 228px;
+    text-align: center;
+}
+
+.btn_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub_title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--text---main);
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 10px;
+}
+
+.sub_title::before {
+    content: "";
+    background-image: url("../../assets/car.svg");
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text---main);
+    width: 331px;
+    margin-left: 34px;
+}
+
+.text_block {
+    display: flex;
+    gap: 20px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
