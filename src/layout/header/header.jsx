@@ -15,9 +15,9 @@ export const Header = () => {
             <div className={style.header_top}>
                 <div className="container">
                     <div className={style.wrapper}>
-                        <a href="#">
-                            <img src={logo} alt="logo" />
-                        </a>
+                        
+                            <Link to={"/"}><img src={logo} alt="logo" /></Link>
+                        
                         <div className={style.num_block}>
                             <a className={style.tel_num} href="#">+7 (812) 660-50-54</a>
                             <a className={style.tel_num} href="#">+7 (958) 111-95-03</a>

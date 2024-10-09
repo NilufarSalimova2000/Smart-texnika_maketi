@@ -1,0 +1,18 @@
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--text---main);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 18px;
+    transition: all 0.4s ease;
+}
+
+.item:hover {
+    background-color: #dae4ed;
+}
