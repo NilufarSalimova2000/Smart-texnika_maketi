@@ -1,0 +1,32 @@
+.menu_block {
+    border-radius: 0 0 8px 8px;
+    padding: 8px 0px;
+    width: 310px;
+    background-color: var(--light-blue);
+}
+
+.wrapper {
+    display: flex;
+}
+
+.slider {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.products {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    color: var(--text---main);
+    margin-bottom: 40px;
+}
+
+.list {
+    display: flex;
+}

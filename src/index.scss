@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Exo 2", sans-serif;
+  margin: 0;
+}
+
+
+:root {
+	--blue: #4878a6;
+	--dark-blue: #2a5275;
+	--red: #f15152;
+	--light-blue: #edf2f6;
+	--yellow: #fbb13c;
+	--divider: #c8cacb;
+	--menu-blue: #0e1821;
+	--card-border: #eaeaf0;
+	--light-yellow: #fff7e3;
+	--text---main: #070c11;
+	--text---grey: #838688;
+}
+
+.container {
+  max-width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.love_icon {
+  color: #838688;
+}
+
+.love_icon:hover {
+  color: red;
+}
